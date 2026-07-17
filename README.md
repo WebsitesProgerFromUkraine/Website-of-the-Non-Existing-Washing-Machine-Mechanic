@@ -1,1 +1,1 @@
-# Website-of-the-Non-Existing-Washing-Machine-Mechanic
+I asked an AI to make a parody of a website creation order. I created this.
