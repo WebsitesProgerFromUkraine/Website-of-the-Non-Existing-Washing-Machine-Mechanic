@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Львів-Прал
+{% endblock %}
+
+{% block body %}
+<h1>Про майстра:</h1>
+<p style="font-size:25px">Привіт! Я приватний майстер з ремонту пральних машин у Львові. Працюю без посередників, тому мої ціни чесні, а якість — як для себе. Досвід роботи — понад 10 років. Виїжджаю в будь-який район міста.</p>
+<h1>Графік роботи:</h1>
+<p style="font-size:25px">Щодня з 08:00 до 21:00</p>
+<h1>Бренди які ремонтую:</h1>
+<ul style="font-size:25px; list-style-type: '— '; margin-left:20px">
+    <li>Samsung;</li>
+    <li>LG;</li>
+    <li>Bosch;</li>
+    <li>Whirlpool;</li>
+    <li>Indesit;</li>
+    <li>Beko;</li>
+    <li>Electrolux;</li>
+    <li>Zanussi.</li>
+</ul>
+<img src="{{ url_for('static', filename='images/Washing Machine1.jpg') }}"
+    alt ="Washing Mashine1">
+{% endblock %}

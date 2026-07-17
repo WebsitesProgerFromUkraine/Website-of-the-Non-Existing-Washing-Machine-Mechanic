@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Львів-Прал
+{% endblock %}
+
+{% block body %}
+<h1>Ціни</h1>
+<ul style="font-size:25px; list-style-type: '— '; margin-left:20px ">
+  <li>Виїзд майстра та діагностика: безкоштовно (у разі ремонту)</li>
+  <li>Заміна зливного насоса: 500₴</li>
+  <li>Заміна ТЕНу: 600₴</li>
+  <li>Ремонт або прошивка електронної плати: 900₴ж</li>
+  <li>Заміна підшипників та сальників (повне розбирання бака): 1300₴</li>
+  <li>Усунення протікання води: 400₴</li>
+</ul>
+<img src="{{ url_for('static', filename='images/Washing Machine2.jpg') }}"
+  alt ="Washing Mashine2">
+{% endblock %}
